@@ -1,14 +1,14 @@
-cmd_/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o := gcc -Wp,-MD,/home/shekhei/git/RT2870_Linux/os/linux/../../common/.cmm_wep.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include  -I/usr/src/linux-headers-3.13.0-24-generic/arch/x86/include -Iarch/x86/include/generated  -Iinclude -I/usr/src/linux-headers-3.13.0-24-generic/arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I/usr/src/linux-headers-3.13.0-24-generic/include/uapi -Iinclude/generated/uapi -include /usr/src/linux-headers-3.13.0-24-generic/include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -m64 -mno-mmx -mno-sse -mpreferred-stack-boundary=3 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -fstack-protector -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -Wframe-larger-than=1024 -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO -DAGGREGATION_SUPPORT -DPIGGYBACK_SUPPORT -DWMM_SUPPORT -DLINUX -Wall -Wstrict-prototypes -Wno-trigraphs -DSYSTEM_LOG_SUPPORT -DLED_CONTROL_SUPPORT -DRESOURCE_PRE_ALLOC -DCONFIG_STA_SUPPORT -DDBG -DDOT11_N_SUPPORT -DDOT11N_DRAFT3 -DSTATS_COUNT_SUPPORT -DRT_CFG80211_SUPPORT -DRFKILL_HW_SUPPORT -DRTMP_MAC_USB -DRTMP_USB_SUPPORT -DRT2870 -DRT28xx -DRTMP_TIMER_TASK_SUPPORT -DA_BAND_SUPPORT -I/home/shekhei/git/RT2870_Linux/include  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(cmm_wep)"  -D"KBUILD_MODNAME=KBUILD_STR(rt2870sta)" -c -o /home/shekhei/git/RT2870_Linux/os/linux/../../common/.tmp_cmm_wep.o /home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.c
+cmd_/home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.o := gcc -Wp,-MD,/home/shekhei/git/RT2870USB/os/linux/../../common/.cmm_wep.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include  -I/usr/src/linux-headers-3.13.0-24-generic/arch/x86/include -Iarch/x86/include/generated  -Iinclude -I/usr/src/linux-headers-3.13.0-24-generic/arch/x86/include/uapi -Iarch/x86/include/generated/uapi -I/usr/src/linux-headers-3.13.0-24-generic/include/uapi -Iinclude/generated/uapi -include /usr/src/linux-headers-3.13.0-24-generic/include/linux/kconfig.h -Iubuntu/include  -D__KERNEL__ -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -m64 -mno-mmx -mno-sse -mpreferred-stack-boundary=3 -mtune=generic -mno-red-zone -mcmodel=kernel -funit-at-a-time -maccumulate-outgoing-args -fstack-protector -DCONFIG_X86_X32_ABI -DCONFIG_AS_CFI=1 -DCONFIG_AS_CFI_SIGNAL_FRAME=1 -DCONFIG_AS_CFI_SECTIONS=1 -DCONFIG_AS_FXSAVEQ=1 -DCONFIG_AS_AVX=1 -DCONFIG_AS_AVX2=1 -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -mno-avx -Wframe-larger-than=1024 -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -mfentry -DCC_USING_FENTRY -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -Werror=implicit-int -Werror=strict-prototypes -DCC_HAVE_ASM_GOTO -DAGGREGATION_SUPPORT -DPIGGYBACK_SUPPORT -DWMM_SUPPORT -DLINUX -Wall -Wstrict-prototypes -Wno-trigraphs -DSYSTEM_LOG_SUPPORT -DLED_CONTROL_SUPPORT -DRESOURCE_PRE_ALLOC -DCONFIG_STA_SUPPORT -DDBG -DDOT11_N_SUPPORT -DDOT11N_DRAFT3 -DSTATS_COUNT_SUPPORT -DRT_CFG80211_SUPPORT -DRFKILL_HW_SUPPORT -DRTMP_MAC_USB -DRTMP_USB_SUPPORT -DRT2870 -DRT28xx -DRTMP_TIMER_TASK_SUPPORT -DA_BAND_SUPPORT -I/home/shekhei/git/RT2870USB/include  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(cmm_wep)"  -D"KBUILD_MODNAME=KBUILD_STR(rt2870sta)" -c -o /home/shekhei/git/RT2870USB/os/linux/../../common/.tmp_cmm_wep.o /home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.c
 
-source_/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o := /home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.c
+source_/home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.o := /home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.c
 
-deps_/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o := \
-  /home/shekhei/git/RT2870_Linux/include/rt_config.h \
+deps_/home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.o := \
+  /home/shekhei/git/RT2870USB/include/rt_config.h \
     $(wildcard include/config/h//.h) \
     $(wildcard include/config/sta/support.h) \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_type.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_os.h \
-  /home/shekhei/git/RT2870_Linux/include/os/rt_linux.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_type.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_os.h \
+  /home/shekhei/git/RT2870USB/include/os/rt_linux.h \
     $(wildcard include/config/apsta/mixed/support.h) \
     $(wildcard include/config/5vt/enhance.h) \
   include/linux/module.h \
@@ -1079,50 +1079,50 @@ deps_/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o := \
     $(wildcard include/config/debug/fs.h) \
   /usr/src/linux-headers-3.13.0-24-generic/include/uapi/linux/nl80211.h \
   include/net/regulatory.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_def.h \
-  /home/shekhei/git/RT2870_Linux/include/oid.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_def.h \
+  /home/shekhei/git/RT2870USB/include/oid.h \
     $(wildcard include/config/status.h) \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_chip.h \
-  /home/shekhei/git/RT2870_Linux/include/chip/rt2870.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_type.h \
-  /home/shekhei/git/RT2870_Linux/include/chip/mac_usb.h \
-  /home/shekhei/git/RT2870_Linux/include/chip/rtmp_mac.h \
-  /home/shekhei/git/RT2870_Linux/include/chip/rtmp_phy.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_iface.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_chip.h \
+  /home/shekhei/git/RT2870USB/include/chip/rt2870.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_type.h \
+  /home/shekhei/git/RT2870USB/include/chip/mac_usb.h \
+  /home/shekhei/git/RT2870USB/include/chip/rtmp_mac.h \
+  /home/shekhei/git/RT2870USB/include/chip/rtmp_phy.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_iface.h \
     $(wildcard include/config/.h) \
-  /home/shekhei/git/RT2870_Linux/include/iface/rtmp_usb.h \
-  /home/shekhei/git/RT2870_Linux/include/rtusb_io.h \
-  /home/shekhei/git/RT2870_Linux/include/wpa_cmm.h \
-  /home/shekhei/git/RT2870_Linux/include/dot11i_wpa.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_dot11.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_timer.h \
-  /home/shekhei/git/RT2870_Linux/include/cfg80211extr.h \
-  /home/shekhei/git/RT2870_Linux/include/mlme.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_dot11.h \
-  /home/shekhei/git/RT2870_Linux/include/crypt_md5.h \
-  /home/shekhei/git/RT2870_Linux/include/crypt_sha2.h \
-  /home/shekhei/git/RT2870_Linux/include/crypt_hmac.h \
-  /home/shekhei/git/RT2870_Linux/include/rt_config.h \
-  /home/shekhei/git/RT2870_Linux/include/crypt_aes.h \
-  /home/shekhei/git/RT2870_Linux/include/crypt_arc4.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_cmd.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp.h \
+  /home/shekhei/git/RT2870USB/include/iface/rtmp_usb.h \
+  /home/shekhei/git/RT2870USB/include/rtusb_io.h \
+  /home/shekhei/git/RT2870USB/include/wpa_cmm.h \
+  /home/shekhei/git/RT2870USB/include/dot11i_wpa.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_dot11.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_timer.h \
+  /home/shekhei/git/RT2870USB/include/cfg80211extr.h \
+  /home/shekhei/git/RT2870USB/include/mlme.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_dot11.h \
+  /home/shekhei/git/RT2870USB/include/crypt_md5.h \
+  /home/shekhei/git/RT2870USB/include/crypt_sha2.h \
+  /home/shekhei/git/RT2870USB/include/crypt_hmac.h \
+  /home/shekhei/git/RT2870USB/include/rt_config.h \
+  /home/shekhei/git/RT2870USB/include/crypt_aes.h \
+  /home/shekhei/git/RT2870USB/include/crypt_arc4.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_cmd.h \
+  /home/shekhei/git/RT2870USB/include/rtmp.h \
     $(wildcard include/config/ap/support.h) \
     $(wildcard include/config/opmode/on/ap.h) \
     $(wildcard include/config/opmode/on/sta.h) \
-  /home/shekhei/git/RT2870_Linux/include/link_list.h \
-  /home/shekhei/git/RT2870_Linux/include/spectrum_def.h \
-  /home/shekhei/git/RT2870_Linux/include/wsc.h \
-  /home/shekhei/git/RT2870_Linux/include/ap.h \
-  /home/shekhei/git/RT2870_Linux/include/wpa.h \
-  /home/shekhei/git/RT2870_Linux/include/dfs.h \
-  /home/shekhei/git/RT2870_Linux/include/chlist.h \
-  /home/shekhei/git/RT2870_Linux/include/spectrum.h \
-  /home/shekhei/git/RT2870_Linux/include/eeprom.h \
-  /home/shekhei/git/RT2870_Linux/include/rtmp_mcu.h \
-  /home/shekhei/git/RT2870_Linux/include/sta_cfg.h \
-  /home/shekhei/git/RT2870_Linux/include/cfg80211.h \
+  /home/shekhei/git/RT2870USB/include/link_list.h \
+  /home/shekhei/git/RT2870USB/include/spectrum_def.h \
+  /home/shekhei/git/RT2870USB/include/wsc.h \
+  /home/shekhei/git/RT2870USB/include/ap.h \
+  /home/shekhei/git/RT2870USB/include/wpa.h \
+  /home/shekhei/git/RT2870USB/include/dfs.h \
+  /home/shekhei/git/RT2870USB/include/chlist.h \
+  /home/shekhei/git/RT2870USB/include/spectrum.h \
+  /home/shekhei/git/RT2870USB/include/eeprom.h \
+  /home/shekhei/git/RT2870USB/include/rtmp_mcu.h \
+  /home/shekhei/git/RT2870USB/include/sta_cfg.h \
+  /home/shekhei/git/RT2870USB/include/cfg80211.h \
 
-/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o: $(deps_/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o)
+/home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.o: $(deps_/home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.o)
 
-$(deps_/home/shekhei/git/RT2870_Linux/os/linux/../../common/cmm_wep.o):
+$(deps_/home/shekhei/git/RT2870USB/os/linux/../../common/cmm_wep.o):
