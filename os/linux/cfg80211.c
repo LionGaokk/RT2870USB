@@ -1358,7 +1358,9 @@ static int CFG80211_RFKill(
 #endif // RFKILL_HW_SUPPORT //
 
 static struct cfg80211_ops CFG80211_Ops = {
+#if (LINUX_VERSION_CODE < KERNEL_VERSION(3,6,0))
 	.set_channel			= CFG80211_OpsSetChannel,
+#endif
 	.change_virtual_intf	= CFG80211_OpsChgVirtualInf,
 
 #if (LINUX_VERSION_CODE >= KERNEL_VERSION(2,6,30))
